@@ -176,7 +176,7 @@ export default function Home() {
           ].map((testimonial, index) => (
             <Card key={index}>
               <CardContent className="pt-6">
-                <p className="italic mb-4">"{testimonial.testimonial}"</p>
+                <p className="italic mb-4">&quot;{testimonial.testimonial}&quot;</p>
                 <p className="font-semibold">{testimonial.name}</p>
                 <p className="text-sm text-muted-foreground">{testimonial.company}</p>
               </CardContent>
