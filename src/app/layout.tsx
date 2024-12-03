@@ -4,7 +4,7 @@ const inter = Inter({ subsets: ['latin'] })
 import Header from '@/components/header'
 import Footer from '@/components/footer'
 export const metadata = {
-  title: 'WebCraft Solutions',
+  title: 'Software House',
   description: 'Soluções web personalizadas e white label',
 }
 
